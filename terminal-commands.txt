@@ -1,0 +1,42 @@
+npm init --yes 
+
+npm i express mongoose nodemailer dotenv nodemon moment-timezone
+
+//nodemon command    "start": "nodemon server.js"
+npm i --save-dev dotenv nodemon
+
+
+
+
+FOR GITHUB
+1.  git init
+2. git add .     //the "." means all
+3. git commit -m "messaje"
+4. Create a new repository at github website
+5. follow the github's instrution to push it
+6. git remote -v   this shows the available remotes
+7. heroku git:remote -a api-5-2     //from heroku website add this remote
+8. git push heroku main    // to push it to heroku
+
+
+to repush to github follow the git command and:
+git remote add origin https://github.com/giuseppefrj051/api-5.2.git
+git branch -M 'main'
+git push -u origin 'main'
+
+in heroku should be .env key added manually
+
+
+//to repush at git and heroku
+git add .
+git commit -m "messaje"
+git branch -M 'main'
+git push -u origin 'main'
+//heroku login
+git push heroku main
+
+
+heroku logs --tail
+
+
+

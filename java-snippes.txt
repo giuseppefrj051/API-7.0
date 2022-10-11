@@ -1,0 +1,9 @@
+date an time:
+process.env.TZ = 'Europe/Belfast';
+var d = new Date();
+console.log(d.toLocaleTimeString()); this one just time hh/mm/ss
+console.log(d.toLocaleDateString());this one just ate dd/mm/yyyy
+console.log(d.toString()); example: Thu Sep 01 2022 11:10:03 GMT+0100 (British Summer Time)
+console.log(d.toLocaleString()); example 01/09/2022, 11:10:03
+
+

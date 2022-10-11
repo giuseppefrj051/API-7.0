@@ -1,0 +1,37 @@
+### get all
+GET http://localhost:3000/route2
+
+### get one
+GET http://localhost:3000/route1/6314f511f9bf3451eead7f7a
+
+
+
+### 630f232ef1065afc5dda3264
+POST http://localhost:3000/route1
+Content-Type: application/json
+
+{
+"value": 110
+}
+###
+DELETE http://localhost:3000/route1/63107d3b235f66cb9fd7ca55
+
+###  push route test
+POST http://localhost:3000/route2/push
+Content-Type: application/json
+
+{
+"id": "6314f511f9bf3451eead7f7a",
+"value": 3
+}
+
+
+###
+
+PATCH http://localhost:3000/route1/630f4d6b5f7fb1100e41c156
+Content-Type: application/json
+
+{
+  "value": 5
+}
+
